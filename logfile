@@ -1,0 +1,25 @@
+2024-02-02 17:14:58.567 MSK [6514] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-02-02 17:14:58.568 MSK [6514] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-02 17:14:58.576 MSK [6514] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-02 17:14:58.586 MSK [6515] LOG:  database system was shut down at 2024-01-15 00:19:34 MSK
+2024-02-02 17:14:58.600 MSK [6514] LOG:  database system is ready to accept connections
+2024-02-02 17:15:05.315 MSK [6551] FATAL:  database "school_journal_development" does not exist
+2024-02-02 17:15:06.098 MSK [6555] FATAL:  database "school_journal_development" does not exist
+2024-02-03 14:35:52.839 MSK [9509] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-02-03 14:35:52.841 MSK [9509] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-03 14:35:52.848 MSK [9509] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-03 14:35:52.859 MSK [9510] LOG:  database system was interrupted; last known up at 2024-02-02 17:29:58 MSK
+2024-02-03 14:35:53.124 MSK [9510] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-02-03 14:35:53.129 MSK [9510] LOG:  redo starts at 0/172D110
+2024-02-03 14:35:53.129 MSK [9510] LOG:  invalid record length at 0/172D1F8: wanted 24, got 0
+2024-02-03 14:35:53.129 MSK [9510] LOG:  redo done at 0/172D1C0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-02-03 14:35:53.150 MSK [9509] LOG:  database system is ready to accept connections
+2024-02-03 14:35:55.255 MSK [9524] FATAL:  database "alex" does not exist
+2024-02-03 14:38:30.104 MSK [10003] ERROR:  relation "schools" does not exist
+2024-02-03 14:38:30.104 MSK [10003] STATEMENT:  CREATE TABLE "students" ("id" bigserial primary key, "first_name" character varying, "last_name" character varying, "surname" character varying, "school_id" bigint, "school_class_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_0adebddbd5"
+	FOREIGN KEY ("school_id")
+	  REFERENCES "schools" ("id")
+	, CONSTRAINT "fk_rails_ecea0bcf0b"
+	FOREIGN KEY ("school_class_id")
+	  REFERENCES "school_classes" ("id")
+	)
