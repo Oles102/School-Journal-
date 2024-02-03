@@ -4,7 +4,7 @@ class CreateSchoolClasses < ActiveRecord::Migration[7.1]
       t.integer :number
       t.string :letter
       t.integer :students_count
-      t.references :school, foreign_key: :true
+      t.references :school, foreign_key: true
 
       t.timestamps
     end
