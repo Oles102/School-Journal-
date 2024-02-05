@@ -1,6 +1,6 @@
 class School < ApplicationRecord
-  has_many :students, class_name: 'Student'
-  has_many :school_classes, class_name: 'SchoolClass'
+  has_many :students
+  has_many :school_classes
 
   validates :name, presence: true, uniqueness: true
 end

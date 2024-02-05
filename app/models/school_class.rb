@@ -1,6 +1,6 @@
 class SchoolClass < ApplicationRecord
   belongs_to :school
-  has_many :students, class_name: 'Student'
+  has_many :students
 
-  validates :number, :letter, :students_count, :school_id, presence: true
+  validates :number, :letter, :students_count, presence: true
 end

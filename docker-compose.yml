@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://postgres:12345@db:5432/schoolname
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_USER: postgres
+      POSTGRES_DB: schoolname
