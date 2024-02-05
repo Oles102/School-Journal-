@@ -1,0 +1,32 @@
+<h1>Create New Student</h1>
+
+<%= form_with(model: @student, url: students_path, method: :post) do |form| %>
+  <div>
+    <%= form.label :first_name %>
+    <%= form.text_field :first_name %>
+  </div>
+
+  <div>
+    <%= form.label :last_name %>
+    <%= form.text_field :last_name %>
+  </div>
+
+  <div>
+    <%= form.label :surname %>
+    <%= form.text_field :surname %>
+  </div>
+
+  <div>
+    <%= form.label :school_class_id %>
+    <%= form.number_field :school_class_id %>
+  </div>
+
+  <div>
+    <%= form.label :school_id %>
+    <%= form.number_field :school_id %>
+  </div>
+
+  <div>
+    <%= form.submit "Create Student" %>
+  </div>
+<% end %>

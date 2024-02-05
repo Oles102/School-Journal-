@@ -23,3 +23,245 @@
 	FOREIGN KEY ("school_class_id")
 	  REFERENCES "school_classes" ("id")
 	)
+2024-02-03 17:05:17.932 MSK [37146] ERROR:  column students.class_id does not exist at character 43
+2024-02-03 17:05:17.932 MSK [37146] STATEMENT:  SELECT "students".* FROM "students" WHERE "students"."class_id" IS NULL AND "students"."school_id" IS NULL
+2024-02-03 20:14:54.347 MSK [71084] ERROR:  syntax error at or near "s" at character 9
+2024-02-03 20:14:54.347 MSK [71084] STATEMENT:  EXPLAIN s
+	;
+2024-02-03 20:14:54.771 MSK [71084] ERROR:  syntax error at or near "se" at character 9
+2024-02-03 20:14:54.771 MSK [71084] STATEMENT:  EXPLAIN se
+	;
+2024-02-03 20:14:56.952 MSK [71084] ERROR:  syntax error at or near "S" at character 9
+2024-02-03 20:14:56.952 MSK [71084] STATEMENT:  EXPLAIN S
+	;
+2024-02-03 20:14:57.431 MSK [71084] ERROR:  syntax error at or near "SE" at character 9
+2024-02-03 20:14:57.431 MSK [71084] STATEMENT:  EXPLAIN SE
+	;
+2024-02-03 20:14:57.912 MSK [71084] ERROR:  syntax error at or near "SELE" at character 9
+2024-02-03 20:14:57.912 MSK [71084] STATEMENT:  EXPLAIN SELE
+	;
+2024-02-03 20:14:58.302 MSK [71084] ERROR:  syntax error at or near "SELEC" at character 9
+2024-02-03 20:14:58.302 MSK [71084] STATEMENT:  EXPLAIN SELEC
+	;
+2024-02-03 20:15:02.851 MSK [71084] ERROR:  column "s" does not exist at character 16
+2024-02-03 20:15:02.851 MSK [71084] STATEMENT:  EXPLAIN SELECT s
+	;
+2024-02-03 20:15:03.276 MSK [71084] ERROR:  column "st" does not exist at character 16
+2024-02-03 20:15:03.276 MSK [71084] STATEMENT:  EXPLAIN SELECT st
+	;
+2024-02-03 20:15:04.790 MSK [71084] ERROR:  column "stu" does not exist at character 16
+2024-02-03 20:15:04.790 MSK [71084] STATEMENT:  EXPLAIN SELECT stu
+	;
+2024-02-03 20:15:05.998 MSK [71084] ERROR:  column "stude" does not exist at character 16
+2024-02-03 20:15:05.998 MSK [71084] STATEMENT:  EXPLAIN SELECT stude
+	;
+2024-02-03 20:15:06.361 MSK [71084] ERROR:  column "studen" does not exist at character 16
+2024-02-03 20:15:06.361 MSK [71084] STATEMENT:  EXPLAIN SELECT studen
+	;
+2024-02-03 20:15:06.671 MSK [71084] ERROR:  column "student" does not exist at character 16
+2024-02-03 20:15:06.671 MSK [71084] STATEMENT:  EXPLAIN SELECT student
+	;
+2024-02-03 20:15:08.211 MSK [71084] ERROR:  column "students" does not exist at character 16
+2024-02-03 20:15:08.211 MSK [71084] STATEMENT:  EXPLAIN SELECT students
+	;
+2024-02-03 20:15:08.638 MSK [71084] ERROR:  column "students" does not exist at character 16
+2024-02-03 20:15:08.638 MSK [71084] STATEMENT:  EXPLAIN SELECT students 
+	;
+2024-02-03 20:15:11.453 MSK [71084] ERROR:  syntax error at or near "8" at character 25
+2024-02-03 20:15:11.453 MSK [71084] STATEMENT:  EXPLAIN SELECT students 8
+	;
+2024-02-03 20:15:11.623 MSK [71084] ERROR:  syntax error at or near "8" at character 25
+2024-02-03 20:15:11.623 MSK [71084] STATEMENT:  EXPLAIN SELECT students 8 
+	;
+2024-02-03 20:15:12.332 MSK [71084] ERROR:  syntax error at or near "8" at character 25
+2024-02-03 20:15:12.332 MSK [71084] STATEMENT:  EXPLAIN SELECT students 8
+	;
+2024-02-03 20:15:12.702 MSK [71084] ERROR:  column "students" does not exist at character 16
+2024-02-03 20:15:12.702 MSK [71084] STATEMENT:  EXPLAIN SELECT students 
+	;
+2024-02-03 20:15:13.712 MSK [71084] ERROR:  syntax error at or near ";" at character 27
+2024-02-03 20:15:13.712 MSK [71084] STATEMENT:  EXPLAIN SELECT students *
+	;
+2024-02-03 20:15:13.906 MSK [71084] ERROR:  syntax error at or near ";" at character 28
+2024-02-03 20:15:13.906 MSK [71084] STATEMENT:  EXPLAIN SELECT students * 
+	;
+2024-02-03 20:15:14.899 MSK [71084] ERROR:  column "students" does not exist at character 16
+2024-02-03 20:15:14.899 MSK [71084] STATEMENT:  EXPLAIN SELECT students * F
+	;
+2024-02-03 20:15:16.037 MSK [71084] ERROR:  column "students" does not exist at character 16
+2024-02-03 20:15:16.037 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FR
+	;
+2024-02-03 20:15:17.311 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:17.311 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM
+	;
+2024-02-03 20:15:17.903 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:17.903 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM 
+	;
+2024-02-03 20:15:20.265 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:20.265 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM s
+	;
+2024-02-03 20:15:21.669 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:21.669 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM st
+	;
+2024-02-03 20:15:21.919 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:21.919 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM stu
+	;
+2024-02-03 20:15:22.675 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:22.675 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM stude
+	;
+2024-02-03 20:15:22.898 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:22.898 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM studen
+	;
+2024-02-03 20:15:23.759 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:23.759 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM students
+	;
+2024-02-03 20:15:30.506 MSK [71084] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-03 20:15:30.506 MSK [71084] STATEMENT:  EXPLAIN SELECT students * FROM students
+	;
+2024-02-03 20:15:38.738 MSK [71084] ERROR:  syntax error at or near "FROM" at character 26
+2024-02-03 20:15:38.738 MSK [71084] STATEMENT:  EXPLAIN SELECT students* FROM students
+	;
+2024-02-04 13:28:25.621 MSK [2451] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-02-04 13:28:25.621 MSK [2451] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-04 13:28:25.627 MSK [2451] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-04 13:28:25.639 MSK [2452] LOG:  database system was interrupted; last known up at 2024-02-03 18:55:58 MSK
+2024-02-04 13:28:25.908 MSK [2452] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-02-04 13:28:25.913 MSK [2452] LOG:  redo starts at 0/1783A58
+2024-02-04 13:28:25.913 MSK [2452] LOG:  invalid record length at 0/1783B40: wanted 24, got 0
+2024-02-04 13:28:25.913 MSK [2452] LOG:  redo done at 0/1783B08 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-02-04 13:28:25.936 MSK [2451] LOG:  database system is ready to accept connections
+2024-02-04 15:17:49.493 MSK [22914] ERROR:  could not create unique index "index_students_on_email"
+2024-02-04 15:17:49.493 MSK [22914] DETAIL:  Key (email)=() is duplicated.
+2024-02-04 15:17:49.493 MSK [22914] STATEMENT:  CREATE UNIQUE INDEX "index_students_on_email" ON "students" ("email")
+2024-02-04 15:20:38.271 MSK [23454] ERROR:  column "first_name" of relation "students" already exists
+2024-02-04 15:20:38.271 MSK [23454] STATEMENT:  ALTER TABLE "students" ADD "first_name" character varying DEFAULT '' NOT NULL
+2024-02-04 15:24:46.202 MSK [24229] ERROR:  cannot drop table schools because other objects depend on it
+2024-02-04 15:24:46.202 MSK [24229] DETAIL:  constraint fk_rails_a78da68107 on table school_classes depends on table schools
+	constraint fk_rails_0adebddbd5 on table students depends on table schools
+2024-02-04 15:24:46.202 MSK [24229] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2024-02-04 15:24:46.202 MSK [24229] STATEMENT:  DROP TABLE "schools"
+2024-02-04 16:47:24.539 MSK [39546] ERROR:  syntax error at or near "SELECT" at character 70
+2024-02-04 16:47:24.539 MSK [39546] STATEMENT:  SELECT "schools".* FROM "schools" WHERE "schools"."id" = $1 LIMIT $2
+	SELECT * FROM schools;
+2024-02-04 16:47:48.422 MSK [39546] ERROR:  syntax error at or near "SELECT" at character 70
+2024-02-04 16:47:48.422 MSK [39546] STATEMENT:  SELECT "schools".* FROM "schools" WHERE "schools"."id" = $1 LIMIT $2
+	SELECT * FROM schools;
+2024-02-04 16:48:51.475 MSK [39546] ERROR:  syntax error at or near "SELECT" at character 70
+2024-02-04 16:48:51.475 MSK [39546] STATEMENT:  SELECT "schools".* FROM "schools" WHERE "schools"."id" = $1 LIMIT $2
+	SELECT * FROM students;
+2024-02-04 19:14:30.391 MSK [65602] ERROR:  syntax error at or near "S" at character 9
+2024-02-04 19:14:30.391 MSK [65602] STATEMENT:  EXPLAIN S
+	;
+2024-02-04 19:14:34.744 MSK [65602] ERROR:  syntax error at or near "S" at character 9
+2024-02-04 19:14:34.744 MSK [65602] STATEMENT:  EXPLAIN S 
+	;
+2024-02-04 19:14:35.622 MSK [65602] ERROR:  syntax error at or near "S" at character 9
+2024-02-04 19:14:35.622 MSK [65602] STATEMENT:  EXPLAIN S
+	;
+2024-02-04 19:14:41.109 MSK [65602] ERROR:  column "s" does not exist at character 16
+2024-02-04 19:14:41.109 MSK [65602] STATEMENT:  EXPLAIN SELECT s
+	;
+2024-02-04 19:14:43.029 MSK [65602] ERROR:  column "st" does not exist at character 16
+2024-02-04 19:14:43.029 MSK [65602] STATEMENT:  EXPLAIN SELECT st
+	;
+2024-02-04 19:14:44.467 MSK [65602] ERROR:  column "stu" does not exist at character 16
+2024-02-04 19:14:44.467 MSK [65602] STATEMENT:  EXPLAIN SELECT stu
+	;
+2024-02-04 19:14:45.867 MSK [65602] ERROR:  column "students" does not exist at character 16
+2024-02-04 19:14:45.867 MSK [65602] STATEMENT:  EXPLAIN SELECT students
+	;
+2024-02-04 19:14:47.120 MSK [65602] ERROR:  column "students" does not exist at character 16
+2024-02-04 19:14:47.120 MSK [65602] STATEMENT:  EXPLAIN SELECT students 
+	;
+2024-02-04 19:14:47.641 MSK [65602] ERROR:  syntax error at or near "8" at character 25
+2024-02-04 19:14:47.641 MSK [65602] STATEMENT:  EXPLAIN SELECT students 8 
+	;
+2024-02-04 19:14:48.428 MSK [65602] ERROR:  syntax error at or near "8" at character 25
+2024-02-04 19:14:48.428 MSK [65602] STATEMENT:  EXPLAIN SELECT students 8
+	;
+2024-02-04 19:14:48.909 MSK [65602] ERROR:  column "students" does not exist at character 16
+2024-02-04 19:14:48.909 MSK [65602] STATEMENT:  EXPLAIN SELECT students
+	;
+2024-02-04 19:14:49.579 MSK [65602] ERROR:  column "students" does not exist at character 16
+2024-02-04 19:14:49.579 MSK [65602] STATEMENT:  EXPLAIN SELECT students 
+	;
+2024-02-04 19:14:50.218 MSK [65602] ERROR:  syntax error at or near ";" at character 27
+2024-02-04 19:14:50.218 MSK [65602] STATEMENT:  EXPLAIN SELECT students *
+	;
+2024-02-04 19:14:50.733 MSK [65602] ERROR:  syntax error at or near ";" at character 28
+2024-02-04 19:14:50.733 MSK [65602] STATEMENT:  EXPLAIN SELECT students * 
+	;
+2024-02-04 19:14:53.469 MSK [65602] ERROR:  column "students" does not exist at character 16
+2024-02-04 19:14:53.469 MSK [65602] STATEMENT:  EXPLAIN SELECT students * F
+	;
+2024-02-04 19:14:58.068 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:14:58.068 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM
+	;
+2024-02-04 19:14:58.325 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:14:58.325 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM 
+	;
+2024-02-04 19:14:59.698 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:14:59.698 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.
+	;
+2024-02-04 19:15:01.461 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:01.461 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.i
+	;
+2024-02-04 19:15:02.082 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:02.082 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id
+	;
+2024-02-04 19:15:02.368 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:02.368 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id 
+	;
+2024-02-04 19:15:03.545 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:03.545 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 
+	;
+2024-02-04 19:15:05.914 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:05.914 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1
+	;
+2024-02-04 19:15:06.368 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:06.368 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf8
+	;
+2024-02-04 19:15:07.438 MSK [65602] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:07.438 MSK [65602] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf8
+	;
+2024-02-04 19:15:28.417 MSK [65806] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:28.417 MSK [65806] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf8
+	;
+2024-02-04 19:15:31.237 MSK [65823] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:31.237 MSK [65823] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf8
+	;
+2024-02-04 19:15:33.589 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:33.589 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf8
+	;
+2024-02-04 19:15:52.714 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:52.714 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_utf
+	;
+2024-02-04 19:15:53.487 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:53.487 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8859_1_to_
+	;
+2024-02-04 19:15:54.262 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:54.262 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = iso8
+	;
+2024-02-04 19:15:54.995 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:54.995 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 
+	;
+2024-02-04 19:15:55.701 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:55.701 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1
+	;
+2024-02-04 19:15:57.680 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:15:57.680 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1;
+2024-02-04 19:16:16.285 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:16:16.285 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1;
+2024-02-04 19:16:16.774 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:16:16.774 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1;
+2024-02-04 19:16:18.030 MSK [65831] ERROR:  syntax error at or near "FROM" at character 27
+2024-02-04 19:16:18.030 MSK [65831] STATEMENT:  EXPLAIN SELECT students * FROM students WHERE students.id = 1;
+2024-02-05 14:37:12.885 MSK [12437] LOG:  starting PostgreSQL 14.10 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-02-05 14:37:12.886 MSK [12437] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-02-05 14:37:12.894 MSK [12437] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-02-05 14:37:12.906 MSK [12438] LOG:  database system was interrupted; last known up at 2024-02-04 22:33:34 MSK
+2024-02-05 14:37:13.186 MSK [12438] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-02-05 14:37:13.191 MSK [12438] LOG:  redo starts at 0/17963C8
+2024-02-05 14:37:13.191 MSK [12438] LOG:  invalid record length at 0/17964B0: wanted 24, got 0
+2024-02-05 14:37:13.191 MSK [12438] LOG:  redo done at 0/1796478 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-02-05 14:37:13.217 MSK [12437] LOG:  database system is ready to accept connections
