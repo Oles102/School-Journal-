@@ -11,6 +11,7 @@ services:
       - db
     environment:
       DATABASE_URL: postgres://postgres:12345@db:5432/schoolname
+      RAILS_MASTER_KEY: "53a814c3c512b3d02561359987c9eea2" # Вставьте ваш мастер-ключ сюда
   db:
     image: postgres
     environment:

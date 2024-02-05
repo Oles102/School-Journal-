@@ -47,4 +47,3 @@ end
 
 gem 'devise'
 gem 'devise-api'
-gem 'jwt'
